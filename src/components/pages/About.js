@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const About = props => {
   return (
-    <div>
-      <h1>About This App</h1>
+    <div className='container'>
+      <h1 className='text-primary'>About This App</h1>
       <p className='my-1'>
         This app will generate a word cloud based off a specific subreddit.
       </p>
@@ -14,7 +14,5 @@ const About = props => {
     </div>
   );
 };
-
-About.propTypes = {};
 
 export default About;
